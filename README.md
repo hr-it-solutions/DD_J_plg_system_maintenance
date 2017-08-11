@@ -6,7 +6,7 @@ is a Joomla! system plugin for maintenance updates. It disables login and hide s
 To hide input pages, just add the string which should be found in url at plugin config page under extensions > plugins > DD Maintenance
 
 # Settings
-**Input pages** (Aliases/Strings which should be detect in REQUEST_URI) can be define at plugin under extensions > plugins > DD Maintenance <br>
+**Input pages** (Aliases/Strings which should be detect in REQUEST_URI)<br>can be define at plugin under extensions > plugins > DD Maintenance <br>
 **Note:** Define only one string for each text input which sould be searched at each url.
 The input field has a multiple option, to block multiple urls like cart, register, login etc...
 
