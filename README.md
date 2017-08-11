@@ -6,13 +6,15 @@ is a Joomla! system plugin for maintenance updates. It disables login and hide s
 To hide input pages, just add the string which should be found in url at plugin config page under extensions > plugins > DD Maintenance
 
 # Settings
-Input pages (Aliases/Strings which should be detect in REQUEST_URI) can be define at plugin under extensions > plugins > DD Maintenance
-Note: Define only one string for each text input which sould be searched at each url.
+**Input pages** (Aliases/Strings which should be detect in REQUEST_URI) can be define at plugin under extensions > plugins > DD Maintenance <br>
+**Note:** Define only one string for each text input which sould be searched at each url.
 The input field has a multiple option, to block multiple urls like cart, register, login etc...
 
-The Login function it self is always blocked.
+**The Login** function it self is always blocked.
 
-That's all. Just do not forget to enable the plugin after your update ;)
+Just do not forget to enable the plugin after your update **;)**
+
+That's all.
 
 # DD_ Namespace
 DD_ stands for  **D**idl**d**u e.K. | HR IT-Solutions (Brand recognition)                   <br>
