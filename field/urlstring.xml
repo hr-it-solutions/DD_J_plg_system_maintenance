@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <field name="urlstring" type="text" label="PLG_SYSTEM_DD_MAINTENANCE_URLSTRING_LABEL" description="PLG_SYSTEM_DD_MAINTENANCE_URLSTRING_DESC" />
+</form>
