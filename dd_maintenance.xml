@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system" method="upgrade">
+    <name>PLG_SYSTEM_DD_MAINTENANCE</name>
+    <version>1.0.0</version>
+    <creationDate>11.08.2017</creationDate>
+    <author>HR IT-Solutions Valeria Rizak</author>
+    <authorEmail>info@hr-it-solutions.com</authorEmail>
+    <authorUrl>https://www.hr-it-solutions.com</authorUrl>
+    <copyright>Copyright (C) 2017 - 2017 Didldu e.K. | HR IT-Solutions</copyright>
+    <license>GNU/GPLv2 only</license>
+    <description>PLG_SYSTEM_DD_MAINTENANCE_XML_DESCRIPTION</description>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.plg_system_dd_maintenance.sys.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.plg_system_dd_maintenance.ini</language>
+        <language tag="de-DE">language/de-DE/de-DE.plg_system_dd_maintenance.sys.ini</language>
+        <language tag="de-DE">language/de-DE/de-DE.plg_system_dd_maintenance.ini</language>
+    </languages>
+    <files>
+        <filename plugin="dd_maintenance">dd_maintenance.php</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="urlstring" type="subform"
+                       formsource="plugins/system/dd_maintenance/field/urlstring.xml" multiple="true"
+                       label="PLG_SYSTEM_DD_MAINTENANCE_URLSTRING_LABEL" description="PLG_SYSTEM_DD_MAINTENANCE_URLSTRING_DESC" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
