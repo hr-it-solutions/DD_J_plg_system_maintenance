@@ -3,10 +3,10 @@ is a Joomla! system plugin for maintenance updates. It disables login and hide s
 
 [![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.png?v=102)](https://opensource.org/licenses/GPL-2.0/)
 
-To hide input pages, just add the string which should be found in url at plugin config page under extensions > plugins > DD Maintenance
+To hide input pages, just add the string which should be found in url at plugin config page.
 
 # Settings
-**Input pages** (Aliases/Strings which should be detect in REQUEST_URI)<br>can be define at plugin under extensions > plugins > DD Maintenance <br>
+**Input pages** (Aliases/Strings which should be detect in REQUEST_URI) can be define at plugin under extensions > plugins > DD Maintenance 
 **Note:** Define only one string for each text input which sould be searched at each url.
 The input field has a multiple option, to block multiple urls like cart, register, login etc...
 
