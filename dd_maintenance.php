@@ -38,12 +38,14 @@ class plgSystemDD_Maintenance extends JPlugin
 			// Get urlstring field object
 			$urlStrings = $this->params->get('urlstring');
 
-			foreach ($urlStrings as $urlString)
-			{
-				// Check if urlstring is in URL
-				if (strpos($_SERVER['REQUEST_URI'], $urlString->urlstring) !== false)
+			if($urlStrings){
+				foreach ($urlStrings as $urlString)
 				{
-					$this->redirectMessage();
+					// Check if urlstring is in URL
+					if (strpos($_SERVER['REQUEST_URI'], $urlString->urlstring) !== false)
+					{
+						$this->redirectMessage();
+					}
 				}
 			}
 		}
